@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif; margin: 0;
+}
+.button{
+    border: none; display: inline-block; padding: 8px 16px; vertical-align: middle; overflow:hidden; text-decoration: none; text-align: center; cursor: pointer;
+}
+.nav-title{
+    color: white!important;font-size: 24px;border: none; display: inline-block;padding: 9px 8px; vertical-align: middle; overflow:hidden; text-decoration: none; text-align: center;width:auto;border:none;outline:0
+}
+.nav{
+    color: white!important; position: fixed; width: 100%; top: 0; font-size: 16px; background-color: #00529b;
+}
+.nav-item{
+    color: white;padding: 18px 16px;float: left;width:auto;border:none;display:block;outline:0
+}
+.nav-item:hover{
+    color: white;background-color: #fdb813;
+}
+.right{
+    float:right!important;
+}
+.padding-top{
+    padding-bottom:64px!important; top: 0;
+}
+.padding-title{
+    padding-top:48px!important;padding-inline-start: 12px; background-color: #fdb813;
+}
+.padding-64{
+    padding-top:64px!important;padding-bottom:64px!important; padding-inline-start: 12px;
+}
+.padding-32{
+    padding-top:32px!important;padding-bottom:32px!important; padding-inline-start: 12px;
+}
+.padding-side{
+    padding-left:64px!important;padding-right:64px!important; padding-inline-start: 12px;
+}
+.img-button{
+    border:none;vertical-align:middle;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap
+}
+.title{
+    color: white;padding-bottom:8px;font-size: 24px!important; max-width: 1024px;
+}
+.video-title{
+    color: #00529b;font-size: 24px; padding-inline-start: 12px;
+}
+.quote{
+    padding: 10px 10px; color: #00529b; background-color: #fdb813;overflow: hidden;
+}
+.section{
+    color: #fdb813; text-decoration:underline;text-align: justify;font-size: 20px;
+}
+.sub{
+    color: #fdb813; text-decoration:underline;text-align: justify;font-size: 20px;
+}
+.box{
+    max-width: 1024px;
+}
+.img{
+    width: 40%;
+}
+.imgt{
+    width: 60%;
+}
+.third{
+    width: 33.3%;
+}
+.img,.imgt,.photos,.third{
+    float:left;display:block;padding-bottom: 20px;
+}
+a{
+    color: #00529b; text-decoration: none;
+}
+ul{
+    list-style-type:square;text-align: justify;font-size: 20px;
+}
+li{
+    padding-bottom: 8px;
+}
+p{
+    text-align:justify;
+}
+.footer{float: none;}
+.footer{
+    bottom:0; color:white; text-align: center;display:block; padding:24px 0; background-color: #00529b;
+}

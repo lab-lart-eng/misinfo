@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home - Fake News</title> 
+        <meta nm3e="author" content="Albert Liang, Jim Au Yeung, Stephy Lm3">
+        <meta nm3e="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>  
+        <header><!-- navbar -->
+            <div class="nav">
+                <a class="nav-title">Rumors, Fake News, Misinformation, and Disinformation</a>
+                <div class="right">
+                    <a href="index.html" class="button nav-item">Home</a>
+                    <a href="background.html" class="button nav-item">Background</a>
+                    <a href="concept.html" class="button nav-item">Concept</a>
+                    <a href="impact.html" class="button nav-item">Impact</a>
+                    <a href="Prevention.html" class="button nav-item">Prevention</a>
+                    <a href="Misconception.html" class="button nav-item">Misconception</a>
+                    <a href="readmore.html" class="button nav-item">Read More</a>
+                </div>
+            </div>
+        </header>
+        <!--Contents start here-->
+        <div align="center">
+            <!--Page Title-->
+            <div id="Top" class="padding-title">
+                <p class="title">Misconception about Fake News</p>
+            </div>
+            <!--First Paragraph-->
+            <div class="padding-top box">
+                <img id="m1" src="images/Infographic/Slide2.png" style="width: 100%" onmouseover="m1Over()" onmouseout="m1Out()">
+                <img id="m2" src="images/Infographic/Slide4.png" style="width: 100%" onmouseover="m2Over()" onmouseout="m2Out()">
+                <img id="m3" src="images/Infographic/Slide6.png" style="width: 100%" onmouseover="m3Over()" onmouseout="m3Out()">
+            </div>
+            <script>
+                function m1Over() {
+                    document.getElementById('m1').src="images/Infographic/Slide3.png"
+                }
+                function m1Out() {
+                    document.getElementById('m1').src="images/Infographic/Slide2.png"
+                }
+                function m2Over() {
+                    document.getElementById('m2').src="images/Infographic/Slide5.png"
+                }
+                function m2Out() {
+                    document.getElementById('m2').src="images/Infographic/Slide4.png"
+                }
+                function m3Over() {
+                    document.getElementById('m3').src="images/Infographic/Slide7.png"
+                }
+                function m3Out() {
+                    document.getElementById('m3').src="images/Infographic/Slide6.png"
+                }
+            </script>
+        </div>
+
+        <!--footer-->
+        <footer class="footer">
+            All Rights Reserved © 2022<br>
+            Jim Au Yeung, Stephy Lm3 & Albert Liang.
+        </footer>
+    </body>
+</html>
